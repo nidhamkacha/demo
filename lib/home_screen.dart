@@ -18,11 +18,6 @@ class HomeScreen extends StatelessWidget {
           IconButton(onPressed: () {}, icon: Icon(Icons.more_vert)),
         ],
         titleTextStyle: TextStyle(fontSize: 22, color: Colors.black),
-        bottom: TabBar(tabs: 
-        [
-          Tab(icon: Icons.home)
-        ]
-        ),
       ),
       body: Text("Nidham"),
     );
