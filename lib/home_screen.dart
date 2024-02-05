@@ -19,7 +19,7 @@ class HomeScreen extends StatelessWidget {
         ],
         titleTextStyle: TextStyle(fontSize: 22, color: Colors.black),
       ),
-      body: Text("Nidham"),
+      body: Center(child: Text("Nidham")),
     );
   }
 }
